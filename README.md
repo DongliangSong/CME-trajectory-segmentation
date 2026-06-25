@@ -54,7 +54,7 @@ $$
 To balance the two segments, we introduce a weighting factor **λ** (0 ≤ λ ≤ 1):
 
 $$
-\text{Score}(k, \lambda) = \lambda \cdot KL_2 + (1 - \lambda) \cdot KL_3
+\text{Score}(k, \lambda) = KL_3 - \lambda \cdot KL_2
 $$
 
 ### 5. Optimal Segmentation
